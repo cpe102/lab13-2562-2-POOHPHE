@@ -23,7 +23,7 @@ void insertionSort(T d[],int N){
 			}
 		}
 		for(int j=i;j>0;j--){
-			if(d[j]>=d[j-1]){
+			if(d[j]>d[j-1]){
 				l=j-1;
 				swap(d,j,j-1);
 			}
